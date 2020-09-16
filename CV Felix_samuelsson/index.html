@@ -12,18 +12,63 @@
                background-repeat:no-repeat;
                background-attachment: fixed;
                background-size:cover;
+               
            }
-           div {
+           .background{
+                background:url(https://www.insidescience.org/sites/default/files/sites/default/files/images/articles/top-images/2018/5_heic1808a_crop.jpg);
+                background-repeat:repeat;
+                border: 5px solid black;
+                width: 500px ;
+                height:300px;
+
+           }
+        .transbox {
+            margin:30px;
+            background-color:white;
+            border:2px black solid;
+            opacity:0.6;
+            height:auto;
+
+        }
+           .box{
         background-color:gray ;
         width: 300px;
-        border: 15px solid beige ;
-        padding: 50px;
+        border: 15px solid gold ;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        position: sticky;
+    
+           }
+           .top-and-bottom{
+        background-color:gray ;
+        border: 15px solid darkblue ;
+        padding: 5px;
         margin: 20px;
            }
-
-           .white-text{
-               color:black;
+      .button {
+        background-color: black;
+        border: gold solid 5px;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        text-decoration:none ;
+     
            }
+           h1{
+               font-family: 'Times New Roman', Times, serif;
+               color:darkblue;
+           }
+           h2{
+               font-family: 'Times New Roman', Times, serif;
+               color:darkblue;
+            
+           }
+         
+         
 
         </style>
 
@@ -32,11 +77,27 @@
     <!--Hejsan 1234
     glömm inte att trycka control + s för att spara
         shift + alt + r-->
-     
-        <h1 class="white-text">CV</h1>
-        <h2 class="white-text">This is my CV where i will be selling myself</h2>
-     <div>
-       I do like the spagetti and the funny memes
+     <div class="top-and-bottom font">
+        <h1 >CV</h1>
+        <h2 >Hello and welcome to Felix samuelssons CV</h2>
     </div>
+
+     <div class="box ">
+       <a class="button" href="http://127.0.0.1:5500/me.html"> Me</a>
+       <a class="button" href=""> School</a>
+        <a class="button" href="">Courses</a>
+        <a class="button" href="">Interests </a>
+    
+
+    </div>
+    <div class="background">
+        <div class="transbox">
+            <p> Tjenare </p>
+
+        </div>
+
+    </div>
+    
+
 </body>
 </html>
